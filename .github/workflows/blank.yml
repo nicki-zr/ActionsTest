@@ -28,7 +28,7 @@ jobs:
         run: |
 
           
-              ${{ steps.get-origin-default-branch.outputs.default_branch }}
+
           
               echo "The default branch of this repository is ${{ steps.get-origin-default-branch.outputs.default_branch }}"
 
