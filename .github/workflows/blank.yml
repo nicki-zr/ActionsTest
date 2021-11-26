@@ -21,8 +21,7 @@ jobs:
       - name: Get default branch from origin of owner/repo
         id: get-origin-default-branch
         uses: pipeline-foundation/get-origin-def-branch@v1.0.0
-        with:
-          origin: owner/repo
+
 
       - name: Run a multi-line script
         run: |
